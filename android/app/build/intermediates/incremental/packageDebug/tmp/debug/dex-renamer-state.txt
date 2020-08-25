@@ -1,0 +1,4 @@
+#Tue Aug 25 15:36:59 IST 2020
+base.0=/Users/rajatgeek/Documents/Interview/weather/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

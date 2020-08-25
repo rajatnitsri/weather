@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.weather"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:6:5-79
+13-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:6:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:7:5-81
+14-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:7:22-78
+15
+16    <application
+16-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:11:5-30:19
+17        android:name="com.weather.MainApplication"
+17-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:12:7-38
+18        android:allowBackup="false"
+18-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:16:7-34
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.0.1] /Users/rajatgeek/.gradle/caches/transforms-2/files-2.1/003564936a98162fbdc3e4a2ca6d8cd0/core-1.0.1/AndroidManifest.xml:22:18-86
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:14:7-41
+21        android:label="@string/app_name"
+21-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:13:7-39
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:15:7-52
+23        android:theme="@style/AppTheme" >
+23-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:17:7-38
+24        <activity
+24-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:18:7-28:18
+25            android:name="com.weather.MainActivity"
+25-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:19:9-37
+26            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+26-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:21:9-86
+27            android:label="@string/app_name"
+27-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:20:9-41
+28            android:launchMode="singleTask"
+28-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:22:9-40
+29            android:windowSoftInputMode="adjustResize" >
+29-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:23:9-51
+30            <intent-filter>
+30-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:24:9-27:25
+31                <action android:name="android.intent.action.MAIN" />
+31-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:25:13-65
+31-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:25:21-62
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:26:13-73
+33-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:26:23-70
+34            </intent-filter>
+35        </activity>
+36        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+36-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:29:7-84
+36-->/Users/rajatgeek/Documents/Interview/weather/android/app/src/main/AndroidManifest.xml:29:17-81
+37        <activity
+37-->[com.google.android.gms:play-services-base:17.0.0] /Users/rajatgeek/.gradle/caches/transforms-2/files-2.1/ab9598a8ca8aa96512c99999c7acad33/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+38            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+38-->[com.google.android.gms:play-services-base:17.0.0] /Users/rajatgeek/.gradle/caches/transforms-2/files-2.1/ab9598a8ca8aa96512c99999c7acad33/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+39            android:exported="false"
+39-->[com.google.android.gms:play-services-base:17.0.0] /Users/rajatgeek/.gradle/caches/transforms-2/files-2.1/ab9598a8ca8aa96512c99999c7acad33/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+40            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+40-->[com.google.android.gms:play-services-base:17.0.0] /Users/rajatgeek/.gradle/caches/transforms-2/files-2.1/ab9598a8ca8aa96512c99999c7acad33/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+41
+42        <meta-data
+42-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rajatgeek/.gradle/caches/transforms-2/files-2.1/3a285b0da9b3add2348215b027ab8ea8/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+43            android:name="com.google.android.gms.version"
+43-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rajatgeek/.gradle/caches/transforms-2/files-2.1/3a285b0da9b3add2348215b027ab8ea8/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+44            android:value="@integer/google_play_services_version" />
+44-->[com.google.android.gms:play-services-basement:17.0.0] /Users/rajatgeek/.gradle/caches/transforms-2/files-2.1/3a285b0da9b3add2348215b027ab8ea8/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+45    </application>
+46
+47</manifest>
